@@ -1,0 +1,17 @@
+{% extends "layout.html" %} {% block content %}
+<div class="jumbotron">
+  <h1 class="display-4">Hola Mundo!</h1>
+  <p class="lead">
+    Esta es una unidad de héroe simple, un componente de estilo jumbotron simple
+    para llamar atención adicional al contenido o la información destacados.
+  </p>
+  <hr class="my-4" />
+  <p>
+    Utiliza clases de utilidad para la tipografía y el espaciado para espaciar
+    el contenido. dentro del recipiente más grande.
+  </p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="{{ url_for('about')}}" role="button">Acerca de...</a>
+  </p>
+</div>
+{% endblock %}
